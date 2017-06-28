@@ -4,10 +4,7 @@
         padding-top: 0px;
     }
     &--pull-right {
-<<<<<<< HEAD
-=======
 
->>>>>>> header
     @mixin atMedium {
             float: right;
     }
@@ -47,6 +44,10 @@
             padding: 12px 0;
             font-size: 1rem;
             background-color: transparent;
+
+            &.is-current-link {
+                color: #fabb69;
+            }
         }
     }
 }
